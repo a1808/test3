@@ -1,0 +1,76 @@
+/*Fonts & Colors*/
+
+body {
+	background: #FFFFFF;
+	color: rgb(20, 20, 20);
+	font-family: Open Sans Condensed;
+	margin: 0px;
+}
+
+h1 {
+	font-family: Open Sans Condensed;
+	font-size: 50px;
+	color: #1F9AC1;
+}
+
+h2 {
+	font-size:25px;
+}
+
+p {
+	font-size:16px;
+}
+
+a {
+	text-decoration: none;
+	color: #00DC00;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #1F9AC1;
+	font-weight: bold;
+}
+
+
+/*Custom Design*/
+
+#banner {
+	background-image: url("https://source.unsplash.com/random");
+	background-size: cover;
+	padding: 150px 0px;
+	text-align: center;
+	color: white;
+}
+
+#banner h1 {
+	color: white;
+	font-size: 50px;
+	text-shadow: 0.5px 0.5px 0.5px grey;
+}
+
+#banner p {
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.section {
+	padding: 50px;
+	text-align: center;
+	font-weight: lighter;
+}
+
+#footer {
+	background-color: #1F9AC1;
+	color: white;
+	padding: 50px;
+}
+
+.fab {
+	color: white;
+	font-size: 20px;
+}
+
+.fab:hover {
+	color: black;
+}
